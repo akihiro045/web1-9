@@ -537,6 +537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1436128462}
   - component: {fileID: 1436128461}
+  - component: {fileID: 1436128463}
   m_Layer: 0
   m_Name: ItemGenerator
   m_TagString: Untagged
@@ -552,12 +553,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1436128460}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2eec69a16fd23e48b6b29fc1a068f79, type: 3}
+  m_Script: {fileID: 11500000, guid: a136ee829ac3e1940b8d0ca6c203cb44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   applePrefab: {fileID: 1379812812144950, guid: 03d427b0f00dc6e43be840ceb3b04f5e,
     type: 2}
   bombPrefab: {fileID: 1537189386902434, guid: dc560193152907c46944c0f2673e7745, type: 2}
+  span: 1
+  delta: 0
 --- !u!4 &1436128462
 Transform:
   m_ObjectHideFlags: 0
@@ -571,6 +574,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1436128463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1436128460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2eec69a16fd23e48b6b29fc1a068f79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applePrefab: {fileID: 1379812812144950, guid: 03d427b0f00dc6e43be840ceb3b04f5e,
+    type: 2}
+  bombPrefab: {fileID: 1537189386902434, guid: dc560193152907c46944c0f2673e7745, type: 2}
 --- !u!1001 &1444002665
 Prefab:
   m_ObjectHideFlags: 0
@@ -608,7 +625,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: b99029b6030bb4a479ec940e2f89e932, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b99029b6030bb4a479ec940e2f89e932, type: 3}
@@ -650,7 +667,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bfd11f73bdb92bb45aed435a61fb85bd, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bfd11f73bdb92bb45aed435a61fb85bd, type: 3}
@@ -742,7 +759,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
 --- !u!1 &1657145943
 GameObject:

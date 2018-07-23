@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b2eec69a16fd23e48b6b29fc1a068f79
+timeCreated: 1532334158
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - applePrefab: {fileID: 1379812812144950, guid: 03d427b0f00dc6e43be840ceb3b04f5e,
+      type: 2}
+  - bombPrefab: {fileID: 1537189386902434, guid: dc560193152907c46944c0f2673e7745,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
